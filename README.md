@@ -1,2 +1,4 @@
 # calendar-css-grid
-Calendar positioning done with CSS grid. Days generated with JS
+Learning CSS grid. 
+
+Calendar days generated with JS to simulate dynamic sizing/input
