@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <p>Calendar</p>
+            <ul>
+              <li><a href="/" class="home">Home</a></li>
+              <li><a href="/">Calendar</a></li>
+              <li><a href="/">Admin</a></li>
+              <li><a href="/">Help</a></li>
+            </ul>
+          </nav>
+    </header>
+    <main>
+        <div class="calendar">
+            <div class="calendar-header">
+                <div class="nav-previous">
+                    <svg height="20" width="20">
+                        <polygon points="0,10 20,20 20,0">
+                      </svg>
+                </div>
+                <div class="month-name">
+                    <p>Month</p>
+                </div>
+                <div class="nav-next">
+                    <svg height="20" width="20">
+                        <polygon points="0,0 0,20 20,10"/>
+                      </svg>
+                </div>
+            </div>
+            <div class="day-labels">
+                <p>Sunday</p>
+                <p>Monday</p>
+                <p>Tuesday</p>
+                <p>Wednesday</p>
+                <P>Thursday</P>
+                <p>Friday</p>
+                <p>Saturday</p>
+            </div>
+            <div class="container" id="container">
+            </div>
+            <div class="calendar-footer"></div>
+        </div>
+    </main>
+    
+
+</body>
+<script src="scripts.js"></script>
+</html>
